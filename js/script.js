@@ -3,7 +3,7 @@
 function MostrarDataHora(){
 
     let data = new Date();
-    console.log(data.toLocaleString());
+    console.log(data.toLocaleDateString());
 
     document.getElementById("dh").innerText= data.toLocaleString()
     
